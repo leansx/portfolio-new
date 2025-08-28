@@ -1,0 +1,15 @@
+.footer-container {
+  text-transform: uppercase;
+  z-index: 999;
+  background-color: var(--footer);
+  color: white;
+  padding: 2rem 5rem;
+  display: flex;
+  letter-spacing: var(--letter-body);
+  justify-content: space-between;
+
+  @media (max-width: 920px) {
+    flex-direction: column;
+    padding: 2rem;
+  }
+}

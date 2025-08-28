@@ -1,0 +1,156 @@
+.homepage-body {
+  background: var(--home-gradient);
+  /* height: 100vh; */
+  /* height: fit-content; */
+}
+
+.homepage-titles-container {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-template-rows: auto;
+  grid-column: 2/-2;
+  padding: 10rem 0;
+}
+
+.homepage-titles {
+  grid-column: 1/-1;
+  text-align: left;
+  display: flex;
+  z-index: 70;
+  justify-content: center;
+  flex-direction: column;
+
+  span {
+    font-size: 4rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--light-text);
+  }
+}
+
+.homepage-bottom {
+  background-color: var(--background);
+  padding: 2rem 0;
+  height: fit-content;
+  /* margin-top: auto; */
+  text-align: left;
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: subgrid;
+  z-index: 60;
+  position: relative;
+
+  @media (max-width: 780px) {
+    padding-top: 4rem;
+  }
+}
+
+.endurance-center {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.endurance-container {
+  position: absolute;
+  width: 6rem;
+  visibility: hidden;
+
+  animation: 60s endurance infinite linear;
+  @media (max-width: 780px) {
+    top: -52px;
+    visibility: visible;
+  }
+}
+
+.homepage-content {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: 2/-2;
+  align-items: center;
+  @media (max-width: 780px) {
+    gap: 1rem;
+  }
+}
+
+.homepage-content-first {
+  grid-column: 1/4;
+  margin-right: 0.5rem;
+
+  h3 {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 780px) {
+    grid-column: 1/-1;
+  }
+}
+
+.homepage-content-second {
+  grid-column: 4/8;
+  margin-right: 0.5rem;
+  @media (max-width: 780px) {
+    grid-column: 1/-1;
+  }
+}
+
+.homepage-content-button {
+  grid-column: -1/8;
+  text-align: right;
+  @media (max-width: 780px) {
+    grid-column: 1/-1;
+    text-align: left;
+  }
+
+  /* display: flex; */
+}
+
+.star-container {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.star-background {
+  animation: 400s stars infinite linear;
+
+  img {
+    @media (max-width: 920px) {
+      transform: scale(2);
+    }
+  }
+}
+
+.star-2 {
+  opacity: 0.8;
+  animation: 400s stars2 infinite linear;
+}
+
+@keyframes stars {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes stars2 {
+  from {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(720deg);
+  }
+}
+
+@keyframes endurance {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

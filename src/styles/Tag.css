@@ -1,0 +1,18 @@
+.tag {
+  color: var(--gray);
+  border: var(--border) solid var(--gray);
+  border-radius: var(--radius-full);
+  /* padding: 10px; */
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: var(--font-tag);
+  letter-spacing: var(--letter-body);
+  cursor: default;
+  /* Make variables for things you are going to use often like font size, padding, radius, and letter spacing */
+
+  @media (max-width: 540px) {
+    font-size: 0.6rem;
+  }
+}
+
+/* Refer to your original portfolio file to see how to pass variables to css */

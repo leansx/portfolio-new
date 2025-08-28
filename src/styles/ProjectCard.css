@@ -1,0 +1,43 @@
+.project-card-container {
+  height: 600px;
+  width: 400px;
+  border-radius: var(--radius-sm);
+  /* background-color: #dab8ff; */
+  position: relative;
+  filter: drop-shadow(0 0 0.75rem var(--drop-shadow));
+  cursor: pointer;
+  /* box-sizing: border-box; */
+  /* This eventually needs to be a styled component to take on the variable of the background image and color */
+}
+
+.project-card-name-container {
+  /* height: fit-content; */
+  /* box-sizing: border-box; */
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  display: flex;
+  background-color: #ffffff;
+  width: 100%;
+  /* overflow: hidden; */
+  position: absolute;
+  bottom: 0px;
+  border-bottom-left-radius: var(--radius-sm);
+  border-bottom-right-radius: var(--radius-sm);
+  /* left: 0; */
+}
+
+.project-card-name-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  /* font-size: var(--font-h3); */
+  letter-spacing: var(--letter-h3);
+}
+
+.project-tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}

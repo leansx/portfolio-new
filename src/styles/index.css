@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  font-family: "Jost", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #2d2d2d;
+  background-color: var(--background);
+
+  /* Colors */
+  --gray: #8f8f8f;
+  --purple: #535bf2;
+  --blue: #37b6f3;
+  --dark-purple: #1f0833;
+  --red: #ffb8b8;
+  --dark: #2d2d2d;
+  --background: #fffaf6;
+  --drop-shadow: rgba(136, 136, 136, 0.3);
+  --text: #2d2d2d;
+  --light-text: #fffaf6;
+  --button-background: #2d2d2d;
+  --footer: #2d2d2d;
+  --home-gradient: linear-gradient(
+    180deg,
+    rgba(31, 8, 51, 1) 0%,
+    rgba(93, 24, 153, 1) 100%
+  );
+
+  /* Radius */
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 2rem;
+  --radius-full: 99rem;
+
+  /* Border Stroke */
+  --border: 2px;
+
+  /* Letter Spacing */
+  --letter-body: 0.1rem;
+  --letter-h1: 6.4px;
+  --letter-h2: 2.4px;
+  --letter-h3: 2.4px;
+  --letter-h4: 2px;
+
+  /* Font Size */
+  --font-tag: 0.8rem;
+  --font-tag-small: 0.6rem;
+  --font-body: 1rem;
+  --font-link: 1rem;
+  --font-button: 1rem;
+  --font-h1: 4rem;
+  --font-h2: 2rem;
+  --font-h3: 1.5rem;
+
+  /* Margin */
+
+  --section-bottom: 4rem;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: var(--text);
+  text-decoration: inherit;
+  transition: color 0.3s;
+}
+a:hover {
+  color: #535bf2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* display: flex; */
+  /* width: 100vw; */
+  /* place-items: center; */
+  /* min-width: 320px; */
+  min-height: 100vh;
+  /* overflow: hidden; */
+  /* overflow-x: hidden; */
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: var(--font-h1);
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: 500;
+  letter-spacing: var(--letter-h1);
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+
+  @media (max-width: 980px) {
+    font-size: 3rem;
+  }
+
+  @media (max-width: 540px) {
+    font-size: 2rem;
+  }
+}
+
+h2 {
+  font-size: var(--font-h2);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-h2);
+  font-weight: 500;
+  margin: 0;
+
+  @media (max-width: 540px) {
+    font-size: 1.5rem;
+  }
+}
+
+h3 {
+  font-size: var(--font-h3);
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: var(--letter-h3);
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: var(--font-body);
+  text-align: justify;
+  letter-spacing: var(--letter-body);
+  margin: 0;
+
+  @media (max-width: 540px) {
+    text-align: left;
+  }
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1rem;
+  margin-bottom: 1rem;
+
+  @media (max-width: 540px) {
+    gap: 0.5rem;
+  }
+}
+
+button {
+  border-radius: var(--radius-full);
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--button-background);
+  cursor: pointer;
+  transition: all 0.25s;
+  text-transform: uppercase;
+  letter-spacing: var(--letter-body);
+}
+button:hover {
+  /* border-color: #646cff; */
+  background-color: #646cff;
+}
+/* button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+} */
+
+div {
+  display: block;
+}
+
+img {
+  border-radius: var(--radius-md);
+  filter: drop-shadow(0 0 0.75rem var(--drop-shadow));
+  display: block;
+  width: 100%;
+}
+
+.phone {
+  img {
+    border-radius: 30px;
+
+    @media (max-width: 350px) {
+      border-radius: 20px;
+    }
+  }
+}
+
+section {
+  margin-bottom: var(--section-bottom);
+}
+
+.grid {
+  width: 100vw;
+  grid-template-columns: 5rem repeat(10, 1fr) 5rem;
+  grid-template-rows: min-content;
+}
+
+.standard-grid {
+  display: grid;
+  grid-column: 1/-1;
+  /* width: 100vw; */
+  grid-template-columns: 5rem repeat(10, 1fr) 5rem;
+  /* grid-template-rows: min-content; */
+
+  @media (max-width: 920px) {
+    grid-template-columns: 2rem repeat(10, 1fr) 2rem;
+  }
+
+  @media (max-width: 540px) {
+    grid-template-columns: 1rem repeat(10, 1fr) 1rem;
+    /* gap: 2rem; */
+  }
+}
+
+.site-subtext {
+  text-align: left;
+  font-weight: 500;
+  /* margin-left: 5rem; */
+  margin-bottom: 1.5rem;
+  color: var(--gray);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}

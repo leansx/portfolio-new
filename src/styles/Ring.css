@@ -1,0 +1,254 @@
+.pain-point-section-new {
+  display: flex;
+  flex-direction: column;
+  /* flex-grow: 1; */
+  margin-top: 4rem;
+  margin-bottom: var(--section-bottom);
+  flex-direction: row;
+  grid-template-columns: subgrid;
+  grid-column: 2/-2;
+  gap: 1rem;
+  justify-content: space-between;
+
+  @media (max-width: 1080px) {
+    display: grid;
+    row-gap: 6rem;
+    margin-top: 2rem;
+  }
+}
+
+.ring-mocks-section {
+  grid-column: 1/-1;
+  display: grid;
+  /* gap: 2rem; */
+  grid-template-columns: subgrid;
+  margin-bottom: var(--section-bottom);
+}
+
+.ring-mocks-col-1 {
+  grid-column: 2/4;
+  grid-row: 1/-1;
+
+  @media (max-width: 920px) {
+    grid-column: 2/7;
+    margin-bottom: 2rem;
+  }
+
+  img {
+    margin-top: 1rem;
+  }
+}
+
+.ring-mocks-col-2 {
+  grid-column: 4/6;
+  grid-row: 1/-1;
+
+  @media (max-width: 920px) {
+    grid-column: 7/-2;
+  }
+
+  img {
+    margin-top: 1rem;
+  }
+}
+
+.ring-mocks-col-1-left {
+  grid-column: 2/4;
+  grid-row: 1/-1;
+
+  @media (max-width: 920px) {
+    grid-column: 2/7;
+  }
+  img {
+    margin-top: 1rem;
+  }
+}
+
+.ring-mocks-col-2-left {
+  grid-column: 4/6;
+  grid-row: 1/-1;
+
+  @media (max-width: 920px) {
+    grid-column: 7/-2;
+  }
+  img {
+    margin-top: 1rem;
+  }
+}
+
+.ring-mock-text {
+  grid-column: 2/6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-bottom: 5rem;
+
+  @media (max-width: 920px) {
+    grid-column: 2/-2;
+    margin-bottom: 1rem;
+  }
+}
+
+.ring-mock-text-right-desktop {
+  grid-column: 8/12;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-bottom: 5rem;
+
+  @media (max-width: 920px) {
+    grid-column: 2/-2;
+    margin-bottom: 2rem;
+    display: none;
+  }
+}
+
+.ring-mock-text-right-mobile {
+  grid-column: 8/12;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  display: none;
+
+  margin-bottom: 5rem;
+
+  @media (max-width: 920px) {
+    display: block;
+    grid-column: 2/-2;
+    margin-bottom: 2rem;
+  }
+}
+
+.ring-mode-section {
+  grid-column: 1/-1;
+  background-color: var(--blue);
+  margin-bottom: var(--section-bottom);
+  /* border-radius: 30px; */
+  display: grid;
+  grid-template-columns: subgrid;
+  padding: 4rem 0rem;
+  align-items: center;
+}
+
+.ring-mode-textblock {
+  grid-column: 1/7;
+  display: grid;
+  grid-template-columns: subgrid;
+  background-color: var(--background);
+  height: fit-content;
+  padding: 2rem;
+
+  /* display: flex; */
+  /* flex-direction: column; */
+
+  justify-content: center;
+
+  @media (max-width: 820px) {
+    grid-column: 1/-1;
+    margin-bottom: 2rem;
+  }
+}
+
+.ring-mode-textblock-newgrid {
+  grid-column: 3/7;
+
+  @media (max-width: 820px) {
+    grid-column: 1/-1;
+    /* margin-bottom: 2rem; */
+  }
+}
+
+.ring-mocks-right-section {
+  grid-column: 7/-1;
+  display: grid;
+  gap: 1rem;
+  align-items: center;
+
+  grid-template-columns: subgrid;
+
+  /* @media (max-width: 1200px) {
+    grid-column: 6/-1;
+  } */
+
+  @media (max-width: 920px) {
+    grid-column: 1/-1;
+    margin-bottom: 2rem;
+    align-items: first baseline;
+  }
+
+  @media (max-width: 920px) {
+    background-color: var(--blue);
+    padding: 2rem 0;
+  }
+}
+
+.ring-mocks-left-section {
+  grid-column: 1/7;
+  display: grid;
+  gap: 1rem;
+  align-items: center;
+  grid-template-columns: subgrid;
+
+  /* @media (max-width: 1200px) {
+    grid-column: 6/-1;
+  } */
+
+  @media (max-width: 920px) {
+    grid-column: 1/-1;
+    margin-bottom: 2rem;
+  }
+
+  @media (max-width: 920px) {
+    background-color: var(--blue);
+    padding: 2rem 0;
+  }
+}
+
+.ring-mocks-blue-bg {
+  background-color: var(--blue);
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  border-radius: 30px 0px 0px 30px;
+  height: 70%;
+  align-self: center;
+
+  @media (max-width: 920px) {
+    display: none;
+  }
+}
+
+.ring-mocks-blue-bg-left {
+  background-color: var(--blue);
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  border-radius: 0px 30px 30px 0px;
+  height: 70%;
+  align-self: center;
+
+  @media (max-width: 920px) {
+    display: none;
+  }
+}
+
+.ring-section-break {
+  border-bottom: 1px solid var(--dark);
+  grid-column: 2/-2;
+  margin: 8rem 0;
+
+  @media (max-width: 920px) {
+    margin: 6rem 0;
+  }
+}
+
+.ring-project-textblock {
+  grid-column: 2/-2;
+  margin-bottom: 4rem;
+}
+
+.light-on-dark {
+  @media (max-width: 920px) {
+    color: var(--light-text);
+  }
+}

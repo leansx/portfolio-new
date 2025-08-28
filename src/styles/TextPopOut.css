@@ -1,0 +1,39 @@
+.popout-desktop {
+  background-color: #ffffff;
+  border-radius: var(--radius-md);
+  filter: drop-shadow(0 0 0.75rem var(--drop-shadow));
+  padding: 2rem;
+  text-align: left;
+  height: fit-content;
+
+  p:first-of-type {
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 920px) {
+    visibility: hidden;
+    display: none;
+  }
+}
+
+.popout-mobile {
+  visibility: hidden;
+  grid-column: 2/-2;
+  display: none;
+  background-color: #ffffff;
+  border-radius: var(--radius-md);
+  filter: drop-shadow(0 0 0.75rem var(--drop-shadow));
+  padding: 2rem;
+  text-align: left;
+  height: fit-content;
+
+  p:first-of-type {
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 920px) {
+    visibility: visible;
+
+    display: block;
+  }
+}

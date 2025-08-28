@@ -1,0 +1,44 @@
+.carousel-container {
+  grid-column: 1/-1;
+  margin-bottom: var(--section-bottom);
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  display: flex;
+  gap: 2rem;
+  overflow-x: hidden;
+}
+
+.carousel-list {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  justify-content: center;
+  animation: 60s carousel infinite linear;
+}
+
+.carousel-list li {
+  background-color: #ffffff;
+  /* padding: 3rem; */
+  width: 15rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--radius-sm);
+  filter: drop-shadow(0 0 0.75rem var(--drop-shadow));
+
+  img {
+    width: 45%;
+    /* width: 1rem; */
+    border-radius: 0;
+  }
+}
+
+@keyframes carousel {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

@@ -1,0 +1,19 @@
+.project-page-cards {
+  display: flex;
+  grid-column: 2/-2;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  @media (max-width: 450px) {
+    flex-direction: column;
+  }
+}
+
+.project-page-container {
+  display: grid;
+  width: 100vw;
+  /* height: fit-content; */
+  margin-bottom: var(--section-bottom);
+}
