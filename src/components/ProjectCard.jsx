@@ -11,7 +11,7 @@ const StyledProjectCard = styled.div`
   background-image: url(${(props) => [props.thumb]});
   /* background-position: ${(props) => [props.placement]}; */
 
-  background-size: contain;
+  background-size: cover;
   /* background-position: center; */
   background-repeat: no-repeat;
   position: relative;

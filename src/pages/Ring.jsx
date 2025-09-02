@@ -126,13 +126,11 @@ function Ring() {
             <div className="ring-mocks-left-section">
               <div className="ring-mocks-blue-bg-left"></div>
               <div className="ring-mocks-col-1-left phone">
-                <span className="site-subtext light-on-dark ">Home Modes</span>
+                <span className="site-subtext light-on-dark ">Home</span>
                 <img src="https://rwraptdq2uavnhsn.public.blob.vercel-storage.com/ring/ring_modeshome_redesign.webp" />
               </div>
               <div className="ring-mocks-col-2-left phone">
-                <span className="site-subtext light-on-dark ">
-                  Mode Settings
-                </span>
+                <span className="site-subtext light-on-dark ">Settings</span>
                 <img src="https://rwraptdq2uavnhsn.public.blob.vercel-storage.com/ring/ring_modessettings_redesign.webp" />
               </div>
             </div>

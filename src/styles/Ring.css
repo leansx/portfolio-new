@@ -248,6 +248,7 @@
 }
 
 .light-on-dark {
+  text-align: center;
   @media (max-width: 920px) {
     color: var(--light-text);
   }
