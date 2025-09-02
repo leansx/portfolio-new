@@ -11,7 +11,7 @@ import SampleMe from "./pages/SampleMe.jsx";
 import Ring from "./pages/Ring.jsx";
 import Antimap from "./pages/Antimap.jsx";
 import Projects from "./pages/Projects.jsx";
-import Puttanddoodle from "./pages/puttanddoodle.jsx";
+import Puttanddoodle from "./pages/Puttanddoodle.jsx";
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
