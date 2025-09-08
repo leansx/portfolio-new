@@ -167,6 +167,7 @@ button {
   font-weight: 500;
   font-family: inherit;
   background-color: var(--button-background);
+  color: var(--light-text);
   cursor: pointer;
   transition: all 0.25s;
   text-transform: uppercase;
