@@ -80,6 +80,15 @@ function Ring() {
                   }
                 />
               </div>
+
+              <div className="ring-mode-textblock-mobile">
+                <TextBlock
+                  title={"a tootsie pop?"}
+                  description={
+                    "I wanted to demonstrate exactly how tedious turning on modes is. Below, you can swipe through the journey a user has to take. Like the age old adage, “How many licks does it take to get to the center of a Tootsie Pop?” but this experience is far less enjoyable."
+                  }
+                />
+              </div>
             </div>
 
             <RingCarousel />
@@ -87,7 +96,8 @@ function Ring() {
 
           {/* Resolution Section */}
           <div className="ring-project-textblock">
-            <TextBlock title={"Creating solutions that were user first"} />
+            {/* <TextBlock title={"Creating solutions that were user first"} /> */}
+            <h2>Creating solutions that were user first</h2>
           </div>
 
           {/* Home Screen */}

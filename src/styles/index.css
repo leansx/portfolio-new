@@ -87,7 +87,7 @@ body {
   /* min-width: 320px; */
   min-height: 100vh;
   /* overflow: hidden; */
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 html {
@@ -214,6 +214,7 @@ section {
 
 .standard-grid {
   display: grid;
+  /* overflow-y: hidden; */
   grid-column: 1/-1;
   /* width: 100vw; */
   grid-template-columns: 5rem repeat(10, 1fr) 5rem;

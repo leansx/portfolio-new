@@ -25,7 +25,8 @@ const StyledProjectCard = styled.div`
 
   @media (max-width: 450px) {
     width: 100%;
-    height: 400px;
+    /* background-size: cover; */
+    height: 450px;
   }
 `;
 

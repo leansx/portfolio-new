@@ -2,7 +2,7 @@
   min-height: 100vh;
   /* min-height: fit-content; */
   row-gap: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: var(--section-bottom);
   align-items: center;
 }
 

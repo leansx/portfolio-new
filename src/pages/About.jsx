@@ -1,5 +1,6 @@
 import Tag from "../components/Tag";
 import TextBlock from "../components/TextBlock";
+import { Link } from "react-router";
 import "../styles/About.css";
 
 function About() {
@@ -23,7 +24,14 @@ function About() {
 `}
           />
         </div>
-        <button className="margin-button">My Resume</button>
+        <Link
+          to={
+            "https://drive.google.com/file/d/1wu5d7oMMAU9WbVfGi70rstD0IftjVJ3x/view?usp=sharing"
+          }
+          target="blank"
+        >
+          <button className="margin-button">My Resume</button>
+        </Link>
         <div className="skills">
           <h3>Skills</h3>
           <div className="tags">

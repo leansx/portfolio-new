@@ -1,4 +1,5 @@
 import ProjectCard from "../components/ProjectCard";
+import TextBlock from "../components/TextBlock";
 import "../styles/Projects.css";
 import projectdata from "../projects";
 

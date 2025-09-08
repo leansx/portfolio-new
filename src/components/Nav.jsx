@@ -8,6 +8,7 @@ function Nav() {
   const toggleMenu = () => {
     setIsOpen((prev) => !prev);
   };
+
   return (
     <div className="nav-container">
       <div className="main-nav">
