@@ -2,7 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles/index.css";
 import App from "./App.jsx";
-import { BrowserRouter, Routes, Route } from "react-router";
+import { BrowserRouter, Routes, Route, ScrollRestoration } from "react-router";
 import Friendbuy from "./pages/Friendbuy.jsx";
 import About from "./pages/About.jsx";
 import Nav from "./components/Nav.jsx";
@@ -12,9 +12,11 @@ import Ring from "./pages/Ring.jsx";
 import Antimap from "./pages/Antimap.jsx";
 import Projects from "./pages/Projects.jsx";
 import Puttanddoodle from "./pages/Puttanddoodle.jsx";
+import ScrollToTop from "./ScrollToTop.jsx";
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
+    <ScrollToTop />
     <StrictMode>
       <Nav />
       <Routes>
