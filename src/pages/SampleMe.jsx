@@ -38,24 +38,24 @@ function SampleMe() {
             {/* Column 1 */}
             <div className="column-1">
               <div className="design-div_1 sampleme-img">
-                <img src="/sampleme_textrepeat.png" />
+                <img src="https://rwraptdq2uavnhsn.public.blob.vercel-storage.com/sampleme/sampleme_textrepeat.png" />
               </div>
               <div className="design-div_2 sampleme-img">
-                <img src="/sampleme_font.png" />
+                <img src="https://rwraptdq2uavnhsn.public.blob.vercel-storage.com/sampleme/sampleme_font.png" />
               </div>
 
               <div className="bottom-row-div sampleme-img">
-                <img src="/sampleme_colorslogo.png" />
+                <img src="https://rwraptdq2uavnhsn.public.blob.vercel-storage.com/sampleme/sampleme_colorslogo.png" />
               </div>
             </div>
 
             {/* Column 2 */}
             <div className="column-2">
               <div className="design-div_400 sampleme-img">
-                <img src="/sampleme_body.png" />
+                <img src="https://rwraptdq2uavnhsn.public.blob.vercel-storage.com/sampleme/sampleme_body.png" />
               </div>
               <div className="design-div_400 sampleme-img">
-                <img src="/sampleme_waveform.png" />
+                <img src="https://rwraptdq2uavnhsn.public.blob.vercel-storage.com/sampleme/sampleme_waveform.png" />
               </div>
             </div>
           </div>
@@ -78,10 +78,10 @@ function SampleMe() {
 
           <div className="standard-grid site-grid">
             <div className="site-image_1_home">
-              <img src="/sampleme_home_desktop.webp" />
+              <img src="https://rwraptdq2uavnhsn.public.blob.vercel-storage.com/sampleme/sampledesktophome_new.webp" />
             </div>
             <div className="site-image_2_home">
-              <img src="/sampleme_home_mobile.webp" />
+              <img src="https://rwraptdq2uavnhsn.public.blob.vercel-storage.com/sampleme/samplemobilehome_new.webp" />
             </div>
           </div>
 
@@ -92,10 +92,10 @@ function SampleMe() {
               <span className="site-subtext">Product Page</span>
             </div>
             <div className="site-image_1">
-              <img src="/sampleme_product_mobile.webp" />
+              <img src="https://rwraptdq2uavnhsn.public.blob.vercel-storage.com/sampleme/samplemeProduct_mobile.webp" />
             </div>
             <div className="site-image_2">
-              <img src="/sampleme_product_desktop.webp" />
+              <img src="https://rwraptdq2uavnhsn.public.blob.vercel-storage.com/sampleme/samplemeProduct_Desktop.webp" />
             </div>
           </div>
         </div>
