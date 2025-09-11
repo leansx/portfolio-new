@@ -20,7 +20,8 @@ function About() {
         <div className="about-text-block">
           <TextBlock
             title={"What I Do"}
-            description={`I’m a Senior Graphic Designer with a love for turning complex ideas into clear, thoughtful designs that people actually enjoy using. Over the years, I’ve had the chance to support SaaS, B2B, and consumer-facing companies—helping them create experiences that are not only functional but also visually engaging. Whether I’m collaborating with a team or taking the lead on independent projects, my goal is always the same: to design work that feels thoughtful, intentional, and impactful.
+            description={`I'm a Senior Graphic Designer, specializing in UI/UX design, design systems, and front-end implementation for SaaS and B2B platforms. Skilled at bridging design and engineering to deliver scalable, user-centered, and visually refined digital experiences. Experienced in HTML, CSS, JavaScript, and React, with proven success in building component libraries, evolving design systems, and creating intuitive workflows that improve both product performance and team efficiency.
+
 `}
           />
         </div>
