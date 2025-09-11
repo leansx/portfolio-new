@@ -26,7 +26,7 @@ function About() {
         </div>
         <Link
           to={
-            "https://drive.google.com/file/d/1wu5d7oMMAU9WbVfGi70rstD0IftjVJ3x/view?usp=sharing"
+            "https://drive.google.com/file/d/166iAmktYF6a2Ww_j49A5ckACkJAhJQMX/view?usp=sharing"
           }
           target="blank"
         >
