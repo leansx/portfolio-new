@@ -39,7 +39,7 @@ function Ring() {
             <TextBlock
               title={"identifying pain points"}
               description={
-                "While the Ring app does many things well, the visibility of key features, logical layouts, and hidden settings needed improvement. Highlighted below are areas that needed a bit of TLC to really stand out and make the app easier to use. "
+                "Users of the Ring app report frustration when trying to locate key settings, view a daily event summary, or enable modes. By introducing an event summary feature within Live View, surfacing important settings upfront, and reducing friction around activating and understanding modes, users will feel more confident and empowered when using the app, knowing they can easily find what they need and make full use of its features."
               }
             />
           </div>
