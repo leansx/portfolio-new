@@ -1,4 +1,5 @@
 const projects = [
+  // 0
   {
     title: "Friendbuy",
     color: "#DAB8FF",
@@ -11,6 +12,21 @@ const projects = [
     link: "friendbuy",
     tags: ["UI/UX", "Graphic Design", "Illustration"],
   },
+  // 1
+  {
+    title: "PPLC App",
+    date: "2026",
+    color: "#E4E9F9",
+    position: "Lead Product Designer",
+    image:
+      "https://rwraptdq2uavnhsn.public.blob.vercel-storage.com/PPLC/pplchighlight2.webp",
+    // rotation: "90deg",
+    thumb:
+      "https://rwraptdq2uavnhsn.public.blob.vercel-storage.com/PPLC/pplcthumb.webp",
+    link: "pplc",
+    tags: ["UI/UX", "Graphic Design"],
+  },
+  // 2
   {
     title: "Ring App",
     color: "#37B6F3",
@@ -24,6 +40,7 @@ const projects = [
     placement: "center",
     tags: ["UI/UX", "Graphic Design"],
   },
+  // 3
   {
     title: "SampleMe",
     color: "#000000",
@@ -37,6 +54,7 @@ const projects = [
     placement: "10px",
     tags: ["UI/UX", "Graphic Design", "Web Design"],
   },
+  // 4
   {
     title: "Putt & Doodle",
     date: "2019",
@@ -49,6 +67,8 @@ const projects = [
     link: "puttanddoodle",
     tags: ["Illustration"],
   },
+  // 4
+
   // {
   //   title: "Anti-Map",
   //   color: "#FF008A",

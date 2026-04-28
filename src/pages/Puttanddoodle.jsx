@@ -12,19 +12,19 @@ function Puttanddoodle() {
       <div className="standard-grid">
         <div className="hero-grid">
           <ProjectDetails
-            title={projectdata[3].title}
-            date={projectdata[3].date}
-            position={projectdata[3].position}
-            color={projectdata[3].color}
-            tags={projectdata[3].tags}
+            title={projectdata[4].title}
+            date={projectdata[4].date}
+            position={projectdata[4].position}
+            color={projectdata[4].color}
+            tags={projectdata[4].tags}
             description={
               "A project I will always cherish because I got to bring my father’s story to life. Using Adobe Illustrator I created full color illustrations for this 34 page children’s book. Book formatting was finalized in Adobe Indesign. Collaborating with our local printer, Maple Press, I went to various meetings to quality check the prints and binding of the final design. I learned so much in regards to print design with this project, and love the legacy it holds. Being able to gift friends and family a children’s book that you illustrated, and your Dad wrote, is an incredible feeling."
             }
           />
 
           <ProjectImage
-            color={projectdata[3].color}
-            image={projectdata[3].image}
+            color={projectdata[4].color}
+            image={projectdata[4].image}
           />
         </div>
 

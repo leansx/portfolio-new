@@ -5,3 +5,17 @@
 .title-block {
   margin-bottom: 0.5rem;
 }
+
+.header-with-button {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+  @media (max-width: 920px) {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+.second-description {
+  margin-top: 1.5rem;
+}

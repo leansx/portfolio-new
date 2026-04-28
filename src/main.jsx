@@ -12,6 +12,7 @@ import Ring from "./pages/Ring.jsx";
 import Antimap from "./pages/Antimap.jsx";
 import Projects from "./pages/Projects.jsx";
 import Puttanddoodle from "./pages/Puttanddoodle.jsx";
+import Pplc from "./pages/Pplc.jsx";
 import ScrollToTop from "./ScrollToTop.jsx";
 
 createRoot(document.getElementById("root")).render(
@@ -26,10 +27,11 @@ createRoot(document.getElementById("root")).render(
         <Route path="projects/sampleme" element={<SampleMe />} />
         <Route path="projects/ring" element={<Ring />} />
         <Route path="projects/antimap" element={<Antimap />} />
+        <Route path="projects/pplc" element={<Pplc />} />
         <Route path="projects/puttanddoodle" element={<Puttanddoodle />} />
         <Route path="about" element={<About />} />
       </Routes>
       <Footer />
     </StrictMode>
-  </BrowserRouter>
+  </BrowserRouter>,
 );

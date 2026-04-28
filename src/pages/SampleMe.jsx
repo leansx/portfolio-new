@@ -12,19 +12,19 @@ function SampleMe() {
     <div className="standard-grid project-grid">
       <div className="hero-grid">
         <ProjectDetails
-          title={projectdata[2].title}
-          date={projectdata[2].date}
-          position={projectdata[2].position}
-          color={projectdata[2].color}
-          tags={projectdata[2].tags}
+          title={projectdata[3].title}
+          date={projectdata[3].date}
+          position={projectdata[3].position}
+          color={projectdata[3].color}
+          tags={projectdata[3].tags}
           description={
             "SampleMe approached me to overhaul their branding and website to better resonate with a luxury, established audience. Anticipating their move to Shopify’s headless framework, Hydrogen, I built a scalable design system in Figma that translated seamlessly into React’s native component structure, ensuring consistency, flexibility, and ease of replication across the site."
           }
         />
 
         <ProjectImage
-          color={projectdata[2].color}
-          image={projectdata[2].image}
+          color={projectdata[3].color}
+          image={projectdata[3].image}
         />
       </div>
 
