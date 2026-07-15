@@ -127,10 +127,10 @@ function Pplc() {
           <div className="ring-project-textblock">
             <VariableTextBlock
               title={"Quality of life updates"}
-              button={"Explore The Design System"}
-              link={
-                "https://www.figma.com/design/QCEtdPPjQ34L1zEHCmtKVQ/PPLC-Case-Study?node-id=61-258"
-              }
+              // button={"Explore The Design System"}
+              // link={
+              //   "https://www.figma.com/design/QCEtdPPjQ34L1zEHCmtKVQ/PPLC-Case-Study?node-id=61-258"
+              // }
               description={
                 "A completely reworked design system was created to modernize and maintain consistency without straying too far from the original interface."
               }
